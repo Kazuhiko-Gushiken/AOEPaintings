@@ -16,7 +16,7 @@ public class ModPaintings {
     static {
         REGISTER = DeferredRegister.create(Registries.PAINTING_VARIANT, "aoepaintings");
         GRADIENT = REGISTER.register("gradient", () -> {
-            return new PaintingVariant(112, 64, ResourceLocation.fromNamespaceAndPath("aoepaintings", "gradient"));
+            return new PaintingVariant(64, 32, ResourceLocation.fromNamespaceAndPath("aoepaintings", "gradient"));
         });
     }
 
